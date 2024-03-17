@@ -8,15 +8,11 @@ public class LightSwitchView : MonoBehaviour, IInteractable
     private SwitchState currentState;
     
     public delegate void LightSwitchDelegate(); //Signature
-    public event LightSwitchDelegate lightSwitch; //Event
+    public static event LightSwitchDelegate lightSwitch; //Event
 
     private void Start() => currentState = SwitchState.Off;
 
-    private void OnEnable()
-    {
-        lightSwitch = OnLightSwitchToggled;
-        lightSwitch += OnLightSwitchSoundEffect;
-    }
+    private void OnEnable() => lightSwitch += OnLightSwitchToggled;
 
     public void Interact()
     {
@@ -50,10 +46,6 @@ public class LightSwitchView : MonoBehaviour, IInteractable
     {
         toggleLights();
         GameService.Instance.GetInstructionView().HideInstruction();
-    }
-
-    private void OnLightSwitchSoundEffect()
-    {
         GameService.Instance.GetSoundView().PlaySoundEffects(SoundType.SwitchSound);
     }
 }
