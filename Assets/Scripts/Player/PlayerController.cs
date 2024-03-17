@@ -30,6 +30,8 @@ public class PlayerController
         
         LightSwitchView.lightSwitch += LightSwitchToggeled;
     }
+    
+    ~PlayerController() =>LightSwitchView.lightSwitch -= LightSwitchToggeled;
 
     public void Interact() => IsInteracted = Input.GetKeyDown(KeyCode.E) ? true : (Input.GetKeyUp(KeyCode.E) ? false : IsInteracted);
 
