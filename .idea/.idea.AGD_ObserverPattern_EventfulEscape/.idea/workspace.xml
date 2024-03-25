@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b45ab4e8-213f-4dba-8cb3-7445a3480166" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AGD_ObserverPattern_EventfulEscape/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AGD_ObserverPattern_EventfulEscape/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Interactables/KeyView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Interactables/KeyView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Service/EventService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Service/EventService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/GameUIView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/GameUIView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1710677131949</updated>
       <workItem from="1710677139350" duration="6409000" />
-      <workItem from="1711348365696" duration="2256000" />
+      <workItem from="1711348365696" duration="2984000" />
     </task>
     <servers />
   </component>
